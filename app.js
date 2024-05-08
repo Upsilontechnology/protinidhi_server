@@ -22,7 +22,7 @@ allRoutes.map(route => {
 app.get('/', (req, res) => {
     res.status(200).json({
         status: 200,
-        message: 'welcome to our server!'
+        message: 'welcome to our protinidhi server!'
     })
 })
 
