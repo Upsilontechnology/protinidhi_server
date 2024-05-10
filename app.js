@@ -26,6 +26,8 @@ app.get('/', (req, res) => {
     })
 })
 
+
+
 // global error handle
 
 app.use(globalErrorHandler)
